@@ -174,7 +174,7 @@ See [merge paired-end reads](#merge-paired-end-reads)
 # filtering
 Multiple filters have been implemented.
 ## quality filter
-Quality filtering is enabled by default, but you can disable it by `-Q` or `disable_quality_filtering`. Currently it supports filtering by limiting the N base number (`-n, --n_base_limit`),  and the percentage of unqualified bases.  
+Quality filtering is enabled by default, but you can disable it by `-Q` or `--disable_quality_filtering`. Currently it supports filtering by limiting the N base number (`-n, --n_base_limit`),  and the percentage of unqualified bases.  
 
 To filter reads by its percentage of unqualified bases, two options should be provided:
 * `-q, --qualified_quality_phred`       the quality value that a base is qualified. Default 15 means phred quality >=Q15 is qualified. 
